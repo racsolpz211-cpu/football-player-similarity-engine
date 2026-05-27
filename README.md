@@ -85,7 +85,7 @@ python -m src.data.ingest_possession
 python -m src.data.create_master
 
 # 3. Aplicar ajustes estadísticos (Per-90, PAdj, Coeficiente UEFA)
-python -m src.data.build_features
+python -m src.features.build_features
 ```
 *Al finalizar, el archivo `scouting_dataset.parquet` se generará en la carpeta `data/processed/` y el motor estará listo para funcionar.*
 
